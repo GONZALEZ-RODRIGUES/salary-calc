@@ -36,8 +36,7 @@ h1 {
     text-align: center;
   }
 
-  .output {
+.output {
     font-size: 1.2em;
     line-height: 1.5;
-
-  }
+}

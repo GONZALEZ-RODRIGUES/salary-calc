@@ -8,8 +8,6 @@ function showSalary() {
     total += (turno1.value * 570) + (turno2.value * 570) + (turno3.value * 570)
     var diasTrabalhados = parseInt(turno1.value) + parseInt(turno2.value) + parseInt(turno3.value);
     total *= 0.83,56
-    console.log(typeof total);
-    console.log(total);
     if(isNaN(total)){
         empDetails.innerHTML = "Esqueceu de colocar algum dia,<br> mas você ainda é linda!";
     } else {
