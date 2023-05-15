@@ -33,4 +33,11 @@ h1 {
     margin: .5em 0em 2em 0em;
     font-size: medium;
     color: #146C94;
+    text-align: center;
+  }
+
+  .output {
+    font-size: 1.2em;
+    line-height: 1.5;
+
   }
