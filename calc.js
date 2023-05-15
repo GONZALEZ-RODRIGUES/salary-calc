@@ -13,7 +13,7 @@ function showSalary() {
     if(isNaN(total)){
         empDetails.innerHTML = "Esqueceu de colocar algum dia,<br> mas você ainda é linda!";
     } else {
-        empDetails.innerHTML = "Seu salário liquido é: " + total.toFixed(2) + "<br>Um total de " + diasTrabalhados + " dias trabalhados.<br>Parabéns, você é linda!";
+        empDetails.innerHTML = "Seu salário líquido é: " + total.toFixed(2) + "<br>Totalizando " + diasTrabalhados + " dias trabalhados.<br>Parabéns, você é linda!";
     }
     
 }
